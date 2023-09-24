@@ -1,0 +1,128 @@
+.main {
+  min-height: 76.1vh;
+}
+
+.info {
+  background: url("./img/pexels-maël-balland-3457273\ \(1\).jpg") no-repeat
+    center;
+  min-height: 500px;
+
+  background-size: cover;
+}
+
+.info-1 {
+  background: url("./img/pexels-karolina-grabowska-4996868.jpg") no-repeat
+    center;
+  min-height: 500px;
+
+  background-size: cover;
+}
+.info-2 {
+  background: url("./img/5.jpg") no-repeat center;
+  min-height: 500px;
+
+  background-size: cover;
+}
+
+.info > div {
+  color: white;
+  background: rgba(0, 0, 0, 0.712);
+
+  margin: 3rem;
+}
+.info-1 > div {
+  color: white;
+  background: rgba(0, 0, 0, 0.712);
+
+  margin: 3rem;
+}
+
+.slideshow {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 4px;
+}
+.slideshow:hover {
+  border: 1px solid white;
+  padding: 3px;
+  text-align: center;
+}
+
+.img-bar {
+  background: url("./img/1.jpg") no-repeat center;
+  min-height: 300px;
+
+  background-size: cover;
+}
+
+.img-bar1 {
+  background: url("./img/1.jpg") no-repeat center;
+  min-height: 300px;
+  background-size: cover;
+}
+
+.text {
+  background-color: rgba(255, 255, 255, 0.877);
+  color: balck;
+  text-align: center;
+  height: 60%;
+  display: grid;
+  align-items: center;
+  margin: 3rem;
+}
+
+.text1 {
+  background-color: rgba(179, 160, 160, 0.993);
+  color: black;
+
+  width: 100%;
+  display: grid;
+  align-items: center;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.footer-1 {
+  background-color: rgb(0, 0, 71);
+  height: 60vh;
+}
+.footer-1 ul {
+  margin-top: 2rem;
+}
+.ul > li {
+  list-style: none;
+  color: white;
+  font-size: 2rem;
+  margin-top: 12px;
+}
+.footer-1 .ul-1 {
+  margin-top: 3rem;
+}
+
+.ul-1 > li {
+  font-size: 1.5rem;
+  list-style: none;
+  color: white;
+  margin-top: 15px;
+}
+
+.lastfooter ul li {
+  list-style: none;
+  color: white;
+}
+.lastfooter ul {
+  display: flex;
+  justify-content: space-between;
+}
+.lastfooter {
+  background-color: rgb(0, 0, 71);
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .footer-1 {
+    background-color: rgb(0, 0, 71);
+    height: 90vh;
+  }
+}
